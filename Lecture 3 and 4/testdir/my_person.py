@@ -1,4 +1,3 @@
-
 CITY_OF_ORIGIN = "Uppsala"
 
 
@@ -8,7 +7,6 @@ class Person():
         self.__age = age
         self.name = name
         self.__city = CITY_OF_ORIGIN
-        print(self.name)
 
     def get_person_age(self):
         """Gets the age of the person"""
@@ -16,7 +14,3 @@ class Person():
 
     def print_person_age(self):
         print(self.__age)
-
-
-my_person = Person()
-my_person.print_person_age()
